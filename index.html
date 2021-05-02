@@ -5,7 +5,7 @@
 		<title></title>
 		<style type="text/css">
 		    body{
-				height: 3200px;
+				height: 25600px;
 				background: rgb(240, 255, 200);
 				/* border: 2px solid firebrick;  */
                 background-image:url(about:blank); /* for IE6 */
@@ -14,63 +14,129 @@
 
             top{
                 width: 100%;
-                height: 10%;
+                height: 1%;
                 background-image: url(img/top_bg.png);
                 float: left;
             }
 
             left{
                 width: 20%;
-                height: 85%;
-                background-image:url(img/left_bg.png);
-                background-size: auto 3000px;
+                height: 98%;
+                background-image: linear-gradient(to bottom , rgb(228, 165, 253), rgb(188, 246, 253));
                 float: left;
             }
 
             right{
                 width: 80%;
-                height: 85%;
+                height: 98%;
                 background:gray;
                 float: left;
             }
 			
             bottom{
                 width: 100%;
-                height: 5%;
+                height: 0.75%;
                 background: lightsteelblue;
                 float: left;
             }
             
             tit1{
                 width: 100%;
-                background: rgb(66, 148, 255);
+                background: rgb(113, 167, 238);
                 float: left;
             }
 
             tit2{
                 width: 100%;
-                background: rgb(255, 156, 247);
+                /* background: rgb(255, 156, 247); */
                 float: left;
             }
 
-            members{
+            teamProfile{
                 width: 100%;
-                height: 80%;
-                background: rgb(125, 165, 218);
+                height: 14.5%;
+                background-image: linear-gradient(to bottom , rgb(134, 174, 226), rgb(206, 220, 238));
+                float: left;
+            }
+            
+            idealJobs{
+                width: 100%;
+                height: 14.5%;
+                background-image: linear-gradient(to bottom , rgb(134, 174, 226), rgb(206, 220, 238));
                 float: left;
             }
 
             tools{
                 width: 100%;
-                height: 20%;
-                background-image:url(img/tools_bg.jpg);
+                height: 2.5%;
+                background-image: linear-gradient(to bottom , rgb(134, 174, 226), rgb(206, 220, 238));
                 background-size: auto 700px;
                 float: left;
             }
 
+            industryData{
+                width: 100%;
+                height: 26.5%;
+                background-image: linear-gradient(to bottom , rgb(134, 174, 226), rgb(206, 220, 238));
+                /* background-size: auto 700px; */
+                float: left;
+            }
+
+            ITWork{
+                width: 100%;
+                height: 3.5%;
+                background-image: linear-gradient(to bottom , rgb(134, 174, 226), rgb(206, 220, 238));
+                /* background-size: auto 700px; */
+                float: left;
+            }
+
+            ITTechnologies{
+                width: 100%;
+                height: 26.5%;
+                background-image: linear-gradient(to bottom , rgb(134, 174, 226), rgb(206, 220, 238));
+                /* background-size: auto 700px; */
+                float: left;
+            }
+
+            projectIdeas{
+                width: 100%;
+                height: 6%;
+                background-image: linear-gradient(to bottom , rgb(134, 174, 226), rgb(206, 220, 238));
+                /* background-size: auto 700px; */
+                float: left;
+            }
+
+            groupReflection{
+                width: 100%;
+                height: 6%;
+                background-image: linear-gradient(to bottom , rgb(134, 174, 226), rgb(206, 220, 238));
+                /* background-size: auto 700px; */
+                float: left;
+            }
+
+            table{
+                border-collapse: collapse ;
+            }
+
+            th, td{
+                width: 180px;
+                /* height: 40px; */
+                border: 1px solid black;
+                font-size: 18px;
+                text-align: center;
+            }
+
+            /* #status{
+                width: 150px;
+                height: 150px;
+                border: 3px solid white;
+                border-radius: 50%;
+                overflow: hidden;
+            } */
+
             #ads{
                 width:295px;
-                height:200px;
+                height:450px;
                 background:gray;
                 position:fixed;
                 border: 5px solid burlywood;
@@ -78,28 +144,35 @@
 
             adsItem1{
                 width: 295px;
-                height: 50px;
-                background: lightsteelblue;
+                height: 45px;
+                background: rgb(207, 228, 255);
                 float: left;
             }
             
             adsItem2{
                 width: 295px;
-                height: 50px;
-                background:rgb(255, 210, 217);
+                height: 45px;
+                background:rgb(255, 224, 229);
+                float: left;
+            }
+
+            team{
+                width: 100%;
+                height: 375px;
+                background-image: linear-gradient(to bottom , rgb(134, 174, 226), rgb(206, 220, 238));
                 float: left;
             }
 
             member1{
                 width: 100%;
-                height: 342px;
-                background-image: url(img/member_bg1.jpg);
+                height: 523px;
+                background-image: url(img/member_bg1.png);
                 float: left;
             }
 
             member2{
                 width: 100%;
-                height: 342px;
+                height: 523px;
                 background-image: url(img/member_bg2.jpg);
                 float: left;
             }
@@ -120,7 +193,7 @@
                 font-size: 30px;
                 font-family: 'Times New Roman', Times, serif;
                 color: rgb(46, 46, 46);
-                text-shadow: -3px -3px 10px white, 3px 3px 10px black;
+                text-shadow: -3px -3px 10px white, 3px 3px 10px rgb(173, 121, 233);
             }
 
             h4{
@@ -129,41 +202,54 @@
                 color: rgb(46, 46, 46);
             }
 
+            /* for the bottom */
             h5{
                 font-size: 14px;
                 font-family: 'Times New Roman', Times, serif;
                 color: rgb(46, 46, 46);
             }
 
+            /* for the top */
             h6{
-                font-size: 40px;
+                font-size: 34px;
                 font-family: 'Times New Roman', Times, serif;
                 color: rgb(43, 43, 43);
                 text-shadow: -3px -3px 10px white, 3px 3px 10px black;
             }
 
+            /* for the text */
+            h7{
+                font-size: 18px;
+                font-family: 'Times New Roman', Times, serif;
+                color: rgb(46, 46, 46);
+            }
+
 		</style>
 	</head>
+
 	<body>
+        <!-- top -->
 		<top>
             <div id="TOP">
                 <h6>
-                    <p style="padding: 40px 620px 0px;">
+                    <p style="padding: 0px 650px;">
                         Team Project
                     </p>
                 </h6>
+                
                 <h1>
-                    <p style="padding: 0px 650px;">
+                    <p style="padding: 0px 675px;">
                         Group 8 - W16:30
                     </p>
                 </h1>
             </div>
         </top>
 
+        <!-- left side -->
         <left>
             <div id=ads>
+                <!-- To the TOP -->
                 <adsItem1>
-                    <!-- To the top -->
                     <a href="#TOP">
                         <h1>
                             <p style="text-align:center">TOP</P>
@@ -171,25 +257,79 @@
                     </a>
                 </adsItem1>
                 
-                <!-- To the members -->
+                <!-- To the MEMBERS -->
                 <adsItem2>
-                    <a href="#MEMBERS">
+                    <a href="#TEAMPROFILE">
                         <h1>
-                            <p style="text-align:center">MEMBERS</P>
+                            <p style="text-align:center">TEAM PROFILE</P>
                         </h1>
                     </a>
                 </adsItem2>
 
-                <adsItem1>
-                    <!-- To the tools -->
+                <!-- To the IDEALJOBS -->
+                <adsItem1>                    
+                    <a href="#IDEALJOBS">
+                        <h1>
+                            <p style="text-align:center">IDEAL JOBS</P>
+                        </h1>
+                    </a>
+                </adsItem1>
+
+                <!-- To the TOOLS -->
+                <adsItem2>                    
                     <a href="#TOOLS">
                         <h1>
                             <p style="text-align:center">TOOLS</P>
                         </h1>
                     </a>
+                </adsItem2>
+
+                <!-- To the INDUSTRYDATA -->
+                <adsItem1>                    
+                    <a href="#INDUSTRYDATA">
+                        <h1>
+                            <p style="text-align:center">INDUSTRY DATA</P>
+                        </h1>
+                    </a>
                 </adsItem1>
 
-                <!-- To the bottom -->
+                <!-- To the ITWORK -->
+                <adsItem2>                    
+                    <a href="#ITWORK">
+                        <h1>
+                            <p style="text-align:center">IT WORK</P>
+                        </h1>
+                    </a>
+                </adsItem2>
+
+                <!-- To the ITTECHNOLOGIES -->
+                <adsItem1>                    
+                    <a href="#ITTECHNOLOGIES">
+                        <h1>
+                            <p style="text-align:center">IT TECHNOLOGIES</P>
+                        </h1>
+                    </a>
+                </adsItem1>
+
+                <!-- To the PROJECTIDEAS -->
+                <adsItem2>
+                    <a href="#PROJECTIDEAS">
+                        <h1>
+                            <p style="text-align:center">PROJECT IDEAS</P>
+                        </h1>
+                    </a>
+                </adsItem2>
+
+                <!-- To the GROUPREFLECTION -->
+                <adsItem1>
+                    <a href="#GROUPREFLECTION">
+                        <h1>
+                            <p style="text-align:center">GROUP REFLECTION</P>
+                        </h1>
+                    </a>
+                </adsItem1>
+
+                <!-- To the BOTTOM -->
                 <adsItem2>
                     <a href="#BOTTOM">
                         <h1>
@@ -200,17 +340,37 @@
             </div>
         </left>
 
+        <!-- right side -->
         <right>
-            <members>
-                <div id="MEMBERS">
-                    <!-- Title: Members -->
+            <teamProfile>
+                <div id="TEAMPROFILE">
+                    <!-- Title: TEAM PROFILE -->
                     <tit1>
                         <h3>
-                            <p style="padding: 15px 520px;">
-                                Members
+                            <p style="padding: 15px 500px;">
+                                Team Profile
                             </p>
                         </h3>
                     </tit1>
+
+                    <!-- Team -->
+                    <team>
+                        <h7>
+                            <p style="padding: 10px 200px 15px;">
+                                Jason’s Myers-Briggs test outcome defined him as an INFP-T. He is compassionate towards others, has an aversion to conflict, and is a hands-on/visual learner.
+                                <br/><br/>
+                                Kane is classified as an ENTP-A. He is extroverted, intuitive, and assertive, and is a visual learner.
+                                <br/><br/>
+                                Bijaya is an ISFP-T. She is reserved, averse to conversation, and prefers to work alone.
+                                <br/><br/>
+                                Shaohui has been determined to be an ENTJ-T. He can look at things objectively, fills leadership roles easily, and is an auditory learner.
+                                <br/><br/>
+                                Rishi is an INFP-T. He is seemingly shy but passionate, open to new ideas, and is a hands-on learner.
+                                <br/><br/>
+                                Vita is defined as an ENTJ-T. She is ambitious, organized, and a visual learner. 
+                            </p>
+                        </h7>
+                    </team>
 
                     <!-- Member 1 introduction-->
                     <member1>
@@ -234,6 +394,12 @@
                                 My Profile: <a href="https://bijayab.github.io/Assignment1/">https://bijayab.github.io/Assignment1/</a>
                             </P>
                         </h1>
+
+                        <h7>
+                            <p style="padding: 10px 200px 15px;">
+                                Bijaya was born in Kerala, India, and lived in Malaysia for five years as a child. She is very passionate about music, being born into a musical family. Bijaya has been playing the piano for over seven years. Her interest in IT stems from its constant evolution. She also appreciates how technology has been bringing people together during these unprecedented pandemic times. She has had little experience in IT after completing it as a VCE subject in high school and then undertaking it as a bachelor’s degree in university. During her studies in high school, Bijaya gained some experience in creating database using the Microsoft Access software. She also created a few infographics using Adobe Illustrator and also a few websites using website builders as part of the subject. 
+                            </p>
+                        </h7>
                     </member1>
 
                     <!-- Member 2 introduction-->
@@ -258,6 +424,12 @@
                                 My Profile: <a href="https://jfoster92.github.io/COSC1078-Assignment1/index.html">https://jfoster92.github.io/COSC1078-Assignment1/index.html</a>
                             </P>
                         </h1>
+
+                        <h7>
+                            <p style="padding: 10px 200px 15px;">
+                                Jason was born in Jakarta, Indonesia and moved to Queensland at the age of two. He grew up in a house speaking both English and Indonesian. Most of his time is spent playing video games, such as Tetris. His interest in IT stems from his awe at its ability to promote social interconnectedness and provide instant access to information. Jason previously worked for Telstra as a Level 2 Technical Support Consultant. He resolved issues with mobile phones, printers, modems/routers and smart devices via a 24/7 IT support hotline. His personal experience with IT includes building his own computer, resolving IT issues for friends/family, and setting up a Raspberry Pi for game emulation.  
+                            </p>
+                        </h7>
                     </member2>
 
                     <!-- Member 3 introduction-->
@@ -282,6 +454,12 @@
                                 My Profile: <a href="https://crankysnorlax.github.io/Assignment1_VitaOrloff/">https://crankysnorlax.github.io/Assignment1_VitaOrloff/</a>
                             </P>
                         </h1>
+
+                        <h7>
+                            <p style="padding: 10px 200px 15px;">
+                                Vita is from the United States. She has Russian and Vietnamese heritage enjoys playing video games. She regularly streams her gameplay online. Her main interest in IT revolves around video games, and she finds herself in awe at the rapid progression of technology as a whole. Vita’s experience in IT is limited. She has no professional experience, but has some self-taught coding skills in languages such as HTML, Java, and Python. 
+                            </p>
+                        </h7>
                     </member1>
 
                     <!-- Member 4 introduction-->
@@ -306,6 +484,12 @@
                                 My Profile: <a href="https://s3898602.github.io/assessment_1-IT/">https://s3898602.github.io/assessment_1-IT/</a>
                             </P>
                         </h1>
+
+                        <h7>
+                            <p style="padding: 10px 200px 15px;">
+                                Rishi is a first-year student at RMIT from the southwestern part of Melbourne. He enjoys playing sports and reading. His interest in IT stems from the job industry itself. He has a great appreciation for the massive job growth in the field and hopes to be a part of it. His experience with IT is strictly non-professional; anything he has learned has been passed on to him from friends in the IT field, or was a result of personal edification. 
+                            </p>
+                        </h7>
                     </member2>
 
                     <!-- Member 5 introduction-->
@@ -330,6 +514,12 @@
                                 My Profile: <a href="https://jakllu.github.io/">https://jakllu.github.io/</a>
                             </P>
                         </h1>
+
+                        <h7>
+                            <p style="padding: 10px 200px 15px;">
+                                Shaohui is a 21-year-old from China with two pet rabbits. He likes playing video games and badminton with his friends. Shaohui also enjoys playing the piano in his spare time, as music relaxes him. His interest in IT began at a young age with video games. The process of game creation attracts him to the industry. His experience with IT has been learning about it in his spare time, as well as at university.  
+                            </p>
+                        </h7>
                     </member1>
 
                     <!-- Member 6 introduction-->
@@ -353,25 +543,231 @@
                             <p style="padding: 10px 380px 15px;">
                                 My Profile: <a href="https://s3901628.github.io/">https://s3901628.github.io/</a>
                             </P> 
-                        </h1>                       
+                        </h1>
+                        
+                        <h7>
+                            <p style="padding: 10px 200px 15px;">
+                                Kane is a third-generation Italian painter who completed high school in Werribee. He has studied Latin, Chinese, French, and Italian. Kane spent three years studying Latin and Italian, but the most challenging language for him to learn was Chinese. Kane’s interest in IT comes from growing up with technology. His childhood was deeply interwoven with computers and interactions with websites such as YouTube and Myspace. His experience with IT has included his hobby of building PC’s for family and friends and partaking in paid side-jobs photoshopping and video editing.  
+                            </p>
+                        </h7>
                     </member2>
                 </div>               
-            </members>
+            </teamProfile>
 
             <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="100%" color=gray SIZE=5>
 
-            <!-- Title: Tools -->
-            <tit2>
-                <h3>
-                    <p style="padding: 15px 520px;">
-                        Tools
-                    </p>
-                </h3>
-            </tit2>
+            <idealJobs>
+                <div id='IDEALJOBS'>
+                    <!-- Title: Ideal Jobs -->
+                    <tit2>
+                        <h3>
+                            <p style="padding: 15px 520px;">
+                                Ideal Jobs
+                            </p>
+                        </h3>
+                    </tit2>
 
-            
+                    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="80%" color=black SIZE=1>
+
+                    <h7>
+                        <p style="padding: 15px 200px;">
+                            Though everyone has slightly different aspirations, most members of the group aim to obtain a career in the IT field. Jason aspires to become a Senior Network/System Administrator for a business and Bijaya hopes to land a job in IT Support. Vita and Shaohui want to achieve a career in Game Programming and Designing while Kane aspires to become an Entrepreneur. After completing his course Rishi aims to complete a Software Engineering Graduate Program.
+                            <br/><br/>
+                            In terms of experience, everyone has different levels of experience. Jason has gained experience working in the IT environment through past job opportunities which may be helpful in achieving his ideal job as a Senior Network/System Administrator. Kane has had experience in accounting which has allowed him to build skills needed to start his own business and successfully achieve his aspiration to become an Entrepreneur. Shaohui has some experience and knowledge in building his own interactive games which will enable him to achieve his aspirations as a Video Game Designer. Bijaya has little experience in the IT field, however, she is hoping to obtain all the technical skills necessary for her role as an IT Support through studies at RMIT. Vita is a quick learner who can grasp concepts in a timely manner. She is also hoping to obtain technical skills necessary for her ideal job, Game Programmer through her studies at RMIT. Rishi has past experience of working in a program similar to the Software Engineering Graduate Program he hopes to complete after his studies at RMIT. He is also hoping to obtain technical skills necessary for this role through his studies at RMIT. 
+                            <br/><br/>
+                            Overall, all members are expecting to learn and gain skills and experience that is required to achieve their aspirations and land a career in their ideal job.  
+                        </P>
+                    </h7>
+
+                    <table border="1" align="center">
+                        <!-- tr1 -->
+                        <tr> 
+                            <td>NAME</td>
+                            <td>OCCUPATION</td>
+                            <td>JOB DESCRIPTION</td>
+                            <td>SKILL REQUIREMENT</td>
+                            <td>CURRENT SKILLS</td>
+                        </tr>
+
+                        <!-- tr2 -->
+                        <tr>
+                            <td>Jason</td>
+                            <td>Senior network/system administrator for a business.</td>
+                            <td>
+                                This job allows one to create, setup and maintain computer networks and the systems related. The opportunity to work within a team is provided whilst still being able to work independently without having to rely on other. 
+                            </td>
+                            <td>
+                                <br/><br/>
+                                Must have complete knowledge of networking and how to implement and maintain the physical and software aspect of it. 
+                                <br/><br/>
+                                In order to keep systems functioning as intended, one must do continuous research to maintain a knowledge of current technologies. 
+                                <br/><br/>
+                                Various certifications will help to ensure success in this role including, CISSP, CISM, CRISC, ITIL, and AWS.  
+                                <br/><br/>
+                                Years of work experience is required before reaching the end goal of attaining a senior position. 
+                                <br/><br/>
+                                <br/><br/>
+                            </td>
+                            <td>
+                                Has a good understanding of networking and how it functions. 
+                                <br/><br/>
+                                Had previous experience working in I.T which has provided a foundation to quire further knowledge required to succeed in this role. 
+                                <br/><br/>
+                                Quite competent with operating and navigating systems and software. 
+                                <br/><br/>
+                                Ready to take on the challenge of learning new systems or software. 
+                            </td>
+                        </tr>
+
+                        <!-- tr3 -->
+                        <tr>
+                            <td>Kane</td>
+                            <td>Entrepreneur</td>
+                            <td>
+                                Starting a business preferably within the I.T field which allows for interaction with consumers. Hands-on interactions with consumers will allow better performance within the business. 
+                            </td>
+                            <td>
+                                <br/><br/>
+                                Build a good team of people who can maintain the business. 
+                                <br/><br/>
+                                Marketing.
+                                <br/><br/>
+                                Product testing.
+                                <br/><br/>
+                                User interaction.
+                                <br/><br/>
+                                <br/><br/>
+                            </td>
+                            <td>
+                                Can edit photos and videos using the Adobe suite.
+                                <br/><br/>
+                                Made simple 2d Side scrolling in the past.
+                            </td>
+                        </tr>
+
+                        <!-- tr4 -->
+                        <tr>
+                            <td>Vita</td>
+                            <td>Game Programmer</td>
+                            <td>
+                                A Game Programmer must maintain the code of the existing game engine by debugging, redesigning, and general problem-solving. They must work on the creation and implementation of new systems, such as user interfaces, and would also be expected to contribute to the brainstorming of future game titles. 
+                            </td>
+                            <td>
+                                <br/><br/>
+                                Fluency in C++ is mandatory.
+                                <br/><br/>
+                                Obtain a bachelor's degree in software engineering, computer science, or other relevant discipline.
+                                <br/><br/>
+                                Must have experience in software programming, debugging, and optimization.
+                                <br/><br/>
+                                Adaptability and the ability to work in a team are major requirements for the role. 
+                                <br/><br/>
+                                <br/><br/>
+                            </td>
+                            <td>
+                                A quick learner with a self-motivated attitude.
+                                <br/><br/>
+                                Hoping to obtain technical skills necessary for this role through studies at RMIT. 
+                            </td>
+                        </tr>
+                        
+                        <!-- tr5 -->
+                        <tr>
+                            <td>Bijaya</td>
+                            <td>I.T Support</td>
+                            <td>
+                                This job requires one to manage the computer and networking systems of the organization. Interaction with consumers is also required to better understand the usability of products and gain feedback on what changes or improvements must be made. 
+                            </td>
+                            <td>
+                                <br/><br/>
+                                Required to solve technical and application problems such as installing and configuring computer hardware and software systems. 
+                                <br/><br/>
+                                Required to communicate with clients both face to face and over the phone to assist those who are experiencing technical problems. 
+                                <br/><br/>
+                                A University degree in Computer Sciences.
+                                <br/><br/>
+                                <br/><br/>
+                            </td>
+                            <td>
+                                Gained some experience in creating Databases using the Microsoft Access software. 
+                                <br/><br/>
+                                Can design and create Infographics using Adobe Illustrator.  
+                                <br/><br/>
+                                Hoping to obtain technical skills necessary for this role through studies at RMIT. 
+                            </td>
+                        </tr>
+
+                        <!-- tr6 -->
+                        <tr>
+                            <td>Shaohui</td>
+                            <td>Video Game Designer</td>
+                            <td>
+                                A Video Game Designer addresses the key details of a video game such as the target audience, requirements, deadlines, and budgets. They often experiment with several themes and genres to make their concept a reality.  
+                            </td>
+                            <td>
+                                <br/><br/>
+                                Work experience in similar industries.  
+                                <br/><br/>
+                                Knowledge in Computer usage. 
+                                <br/><br/>
+                                Have advanced problem-solving skills. 
+                                <br/><br/>
+                                Can quickly adapt to constant innovations as technology improves. 
+                                <br/><br/>
+                                Must be knowledgeable in the field of computer programming and software creation. 
+                                <br/><br/>
+                                A University degree in Computer Sciences. 
+                                <br/><br/>
+                                <br/><br/>
+                            </td>
+                            <td>
+                                Self-taught Python due to personal interests and has developed some simple games such as Snake and Tetris. 
+                                <br/><br/>
+                                Tried some simple game development in the past and has gained some knowledge in that field. 
+                            </td>
+                        </tr>
+
+                        <!-- tr7 -->
+                        <tr>
+                            <td>Rishi</td>
+                            <td>Software Engineering Graduate Program</td>
+                            <td>
+                                The Graduate Program helps one discover their strengths and weaknesses to further push them forward to excel their own careers. This program provides a large amount of experience in a short timeframe. 
+                            </td>
+                            <td>
+                                A University degree in Computer Sciences.
+                            </td>
+                            <td>
+                                <br/><br/>
+                                Able to adapt to the shifting of responsibilities and tasks at hand. 
+                                <br/><br/>
+                                Having worked in a program of a similar group and individual nature, this experience may assist. 
+                                <br/><br/>
+                                Hoping to obtain technical skills necessary for this role through studies at RMIT. 
+                                <br/><br/>
+                                <br/><br/>
+                            </td>
+                        </tr>
+                    </table>    
+                </div>
+            </idealJobs>
+
+            <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="100%" color=gray SIZE=5>
+
+            <!-- tools -->
             <tools>
                 <div id="TOOLS">
+                    <!-- Title: Tools -->
+                    <tit2>
+                        <h3>
+                            <p style="padding: 15px 520px;">
+                                Tools
+                            </p>
+                        </h3>
+                    </tit2>
+
+                    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="80%" color=black SIZE=1>
+
                     <!-- Microsoft Teams -->
                     <h2>
                         <p style="padding: 15px 480px 0px;">
@@ -389,7 +785,7 @@
                     <!-- Github -->
                     <h2>
                         <p style="padding: 10px 520px 15px;">
-                            GitHub: 
+                            Github: 
                         </p>
                         <h4>
                             <p style="text-align: center;">
@@ -408,6 +804,487 @@
                     </h2>
                 </div>
             </tools>
+
+            <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="100%" color=gray SIZE=5>
+
+            <!-- INDUSTRY DATA -->
+            <industryData>
+                <div id="INDUSTRYDATA">
+                    <!-- Title: INDUSTRY DATA -->
+                    <tit2>
+                        <h3>
+                            <p style="padding: 15px 480px;">
+                                Industry Data
+                            </p>
+                        </h3>
+                    </tit2>
+
+                    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="80%" color=black SIZE=1>
+
+                    <!-- Q1 -->
+                    <h1>
+                        <p style="padding: 10px 200px;">
+                            What are the Job Titles for your group's ideal jobs? 
+                        </p>                       
+                    </h1>
+                    
+                    <h7>
+                        <p style="padding: 10px 200px 15px;">
+                            Vita – Game Programmer 
+                            <br/><br/>
+
+                            Kane – Entrepreneur  
+                            <br/><br/>
+
+                            Shaohui – Video Game Designer 
+                            <br/><br/>
+
+                            Rishi – Software Engineering 
+                            <br/><br/>
+
+                            Bijaya – I.T Support 
+                            <br/><br/>
+
+                            Jason – Senior Network/System Administrator 
+                            <br/><br/>
+                        </p>
+                    </h7>
+
+                    <!-- Q2 -->
+                    <h1>
+                        <p style="padding: 10px 200px;">
+                            How do each of these rank in terms of demand from employers? 
+                        </p>                       
+                    </h1>
+
+                    <h7>
+                        <p style="padding: 10px 200px 15px;">
+                            Whilst all of the ideal jobs have strong demand and growth, there are some differences between them. With the very strong demand and predicted growth, Senior Network/System Administration and Software Engineering. Just a little under this in rankings there is Game Programming, Video Game Designing and IT Support at a strong level. As Entrepreneurship is a profession that is commonly associated with individuals establishing their own businesses and then hiring their own employee, due to this the demand from employers varies as they are generally the employer. 
+                        </p>
+                    </h7>
+
+                    <!-- Q3 -->
+                    <h1>
+                        <p style="padding: 10px 200px;">
+                            From your group's ideal jobs, you can identify a set of skills required for these jobs (we will refer to this as your group's required skill set). These can be divided into general skills (communication, problem solving, writing etc) and IT-specific skills (Javascript, SQL, etc).  
+                        </p>   
+                    </h1>
+
+                    <h7>
+                        <p style="padding: 10px 200px 15px;">
+                            text
+                        </p>
+                    </h7>
+
+                    <!-- Q4 -->
+                    <h1>
+                        <p style="padding: 10px 200px;">
+                            How do the IT-specific skills in your required skill set rank in terms of demand from employers? 
+                        </p>   
+                    </h1>
+
+                    <h7>
+                        <p style="padding: 10px 200px 15px;">
+                            Vita – According to the top 10 highly demanded IT-specific skills within the Burning Glass data of March 2018, her required skillset involves 4 of them. 
+                            <br/><br/>
+                            Kane – As Kane’s ideal job is an entrepreneur, he has 7 of the top ten March 2018 data set. This is largely due to his job having to require a broad range of skills that are harder to have. 
+                            <br/><br/>
+                            Shaohui – Through the top 10 demanded IT-specific skills within the Burning Glass data of March 2018, his required skillset involves 4 of them, as a result of having his job duties on a specific aspect of IT related jobs. 
+                            <br/><br/>
+                            Rishi – As only three of the higher demanded IT-specific skills were in his required skillset in the Burning Glass data, this is as a result of having his job focused on a smaller area of work that is not as hard to learn or obtain. 
+                            <br/><br/>
+                            Bijaya – Having 4 of the 10 top skills it is apparent that this is due to the job being harder to complete due to the broad knowledge and skills required. 
+                            <br/><br/>
+                            Jason – In accordance with the Burning Glass data he has 5 of the most demanded skills, as his job requires a variety of skills in order to manage. 
+                        </p>
+                    </h7>
+
+                    <!-- Q5 -->
+                    <h1>
+                        <p style="padding: 10px 200px;">
+                            How do the general skills in your required skill set rank in terms of demand from employers? 
+                        </p>   
+                    </h1>
+
+                    <h7>
+                        <p style="padding: 10px 200px 15px;">
+                            Vita – In relation to the top 10 highly demanded generic skills in the Burning Glass dataset for March 2018, Vita has in her required skill set 8 of them. This is a result of the hard task of working with other and doing various tasks solely. 
+                            <br/><br/>
+                            Kane – As discussed above, the data regarding the highly demanded skills is directly applicable towards him, 9 out of the 10 top skills he has in his required skill set. Due to being an entrepreneur it requires a variety of skills and knowledge. 
+                            <br/><br/>
+                            Shaohui – The top skills ranked within the required skill set is that 7 of the 10 top skills are in the skill set. This is due to the nature of the work having to require individuals who can work well together and alone. 
+                            <br/><br/>
+                            Rishi – The requires skill set has 8 of the top 10 generic skills and this is high because of the work needing individuals who will not clash and are able to perform tasks well despite differences, which is highly regarded. 
+                            <br/><br/>
+                            Bijaya – Out of the top 10 generic skills in the Burning Glass March 2018 data, Bijaya has 8 of them and this is due to her having to have knowledge and the ability to perform alone to high ability, with little to no guidance. 
+                            <br/><br/>
+                            Jason – Out of the 10 top regarded skills he has 9. This is because of the work requiring a lot of general skills to perform as he is at the senior level. 
+                        </p>
+                    </h7>
+
+                    <!-- Q6 -->
+                    <h1>
+                        <p style="padding: 10px 200px;">
+                            What are the three highest ranked IT-specific skills which are not in your required skill set? 
+                        </p>   
+                    </h1>
+
+                    <h7>
+                        <p style="padding: 10px 200px 15px;">
+                            Vita – SQL, Project Management and SAP 
+                            <br/><br/>
+                            Kane – JavaScript, JAVA and Graphic Design 
+                            <br/><br/>
+                            Shaohui – SQL, Project Management and SAP 
+                            <br/><br/>
+                            Rishi – SQL, Project Management and SAP 
+                            <br/><br/>
+                            Bijaya – JAVA, JavaScript and Business Management 
+                            <br/><br/>
+                            Jason – SQL, JavaScript and Microsoft Word 
+                        </p>
+                    </h7>
+
+                    <!-- Q7 -->
+                    <h1>
+                        <p style="padding: 10px 200px;">
+                            What are the three highest ranked general skills which are not in your required skill set? 
+                        </p>   
+                    </h1>
+
+                    <h7>
+                        <p style="padding: 10px 200px 15px;">
+                            Vita – Research, Leadership and Mentoring 
+                            <br/><br/>
+                            Kane – Quality Assurance and Control, Team Building and Articulate 
+                            <br/><br/>
+                            Shaohui – Research, Leadership and Mentoring 
+                            <br/><br/>
+                            Rishi – Creativity, Leadership and Research 
+                            <br/><br/>
+                            Bijaya – Creativity, Leadership and Mentoring 
+                            <br/><br/>
+                            Jason – Research, Self-starter and Building effective relationships
+                        </p>
+                    </h7>
+
+                    <!-- Q8 -->
+                    <h1>
+                        <p style="padding: 10px 200px;">
+                            Having looked at the Burning Glass data, has your opinion of your ideal job changed? Why or why not? 
+                        </p>   
+                    </h1>
+
+                    <h7>
+                        <p style="padding: 10px 200px 15px;">
+                            text
+                        </p>
+                    </h7>
+                </div>
+            </industryData>
+
+            <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="100%" color=gray SIZE=5>
+
+            <!-- IT Work -->
+            <ITWork>
+                <div id='ITWORK'>
+                    <!-- Title: IT Work -->
+                    <tit2>
+                        <h3>
+                            <p style="padding: 15px 520px;">
+                                IT Work
+                            </p>
+                        </h3>
+                    </tit2>
+
+                    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="80%" color=black SIZE=1>
+
+                    <!-- Q1 -->
+                    <h1>
+                        <p style="padding: 10px 200px;">
+                            Interview with an IT Professional 
+                        </p>
+                    </h1>
+
+                    <h7>
+                        <p style="padding: 10px 200px 15px;">
+                            An interview was conducted to give an insight into the daily lifestyle of an IT professional. The following is a summary of that interview conducted with Bryan Doan, an IT professional currently working in the field.  
+                            <br/><br/>
+                            Bryan is a System Administrator at Dynalectric based in Dulles, Virginia in the USA. Dyanlectric is an electrical/construction company responsible for the construction and maintenance of data centers. The company has partaken in the construction of data centers for well-known brands such as Amazon, Facebook and Microsoft. Bryan has been working for Dynalectric for 3 years, starting off as an IT helpdesk employee.  
+                            <br/><br/>
+                            Bryan’s main responsibilities in this role involve server maintenance and troubleshooting as well dealing with IT helpdesk escalations. On the rare occasion Bryan is required to travel to jobsites or the company warehouse if required. As he has experience working with certain applications that none of his colleagues have adequate knowledge or experience of, he often finds himself taking over support tickets from his fellow IT co-workers. 
+                            <br/><br/>
+                            Apart from the IT aspects of his work, Bryan finds that most of his time is consumed by attending meetings. He is in constant communications with the parent and sister companies working with Dynalectric. This includes personnel from the corporate level and their IT departments. Within Dynalectric, Bryan’s helpdesk role sees him interacting with a variety of people ranging from members of upper management such as the CFO and subforeman to general office personal. 
+                            <br/><br/>
+                            Bryan suggests that although he had certifications that helped him secure a position at Dynalectric, networking with people is an important aspect to acquiring a job. He clarifies that it is better to show people what you know you can do as a resume can only say so much. He also advises that the most challenging aspect of his work is time management. He explains that making time between meetings and prioritsing issues based on importance can be quite challenging.  
+                        </p>
+                    </h7>
+                </div>
+            </ITWork>
+
+            <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="100%" color=gray SIZE=5>
+
+            <!-- IT Technologies -->
+            <ITTechnologies>
+                <div id='ITTECHNOLOGIES'>
+                    <!-- Title: IT Technologies -->
+                    <tit2>
+                        <h3>
+                            <p style="padding: 15px 480px;">
+                                IT Technologies
+                            </p>
+                        </h3>
+                    </tit2>
+
+                    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="80%" color=black SIZE=1>
+
+                    <!-- Q2 -->
+                    <h1>
+                        <p style="padding: 15px 520px;">
+                            CYBERSECURITY 
+                        </p>
+                    </h1>
+
+                    <p style="padding: 10px 200px 15px;">
+                        <h7>
+                            We are always providing our private details to companies every day, whether it be our names, email addresses, home addresses or even credit card details. Yet how sure can we be that these details that we provide to companies that we trust may also be obtained by those who can use it against us? This is where Cybersecurity comes in. 
+                        </h7>
+                    </p>
+                    
+                    <h1>
+                        <p style="padding: 10px 200px 0px;">
+                            What is Cybersecurity? 
+                        </p>
+                    </h1>
+                    
+                    <p style="padding: 0px 200px 15px;">
+                        <h7>
+                            Cybersecurity involves techniques and processes designed to secure and protect various digital components such as computing devices, data, and networks from unauthorized digital access by hackers, Cybercriminals, etc. Cybersecurity can be implemented in multiple ways depending on the type of Cyberattacks the system is prone to.  
+                        </h7>
+                    </p>
+
+                    <h1>
+                        <p style="padding: 10px 200px 0px;">
+                            What is a Cyberattack/Cybercrime?  
+                        </p>
+                    </h1>
+                    
+                    <p style="padding: 0px 200px 15px;">
+                        <h7>
+                            A Cyberattack is when hackers attempt to obtain or damage data, networks, or systems by various means in order to generate profit. There are many different types of Cyberattacks such as malware attack, phishing, man-in-the-middle attack, denial of service attack, etc. A malware attack is when a user or victim unintentionally downloads any suspicious attachments with malicious viruses embedded in them causing corruption in the system. A phishing attack is when the victim is sent fraudulent emails or messages that appear to be coming from a legitimate source in order to obtain sensitive information or install malware. The man-in-the-middle attack is when the hacker gains access to the information path between the victim’s device and the website server to which sensitive information is being provided to. Denial of service attack (DOS) is attacking the web by bombarding it with millions of fake requests for information which will tie up the server, forcing it to reply to so many requests making it unable to perform its usual functions. 
+                        </h7>
+                    </p>
+
+                    <h1>
+                        <p style="padding: 10px 200px 0px;">
+                            How does Cybersecurity work? 
+                        </p>
+                    </h1>
+
+                    <p style="padding: 0px 200px 15px;">
+                        <h7>
+                            There are many factors that must be taken into consideration in order to prevent Cyberattacks. Using authentication mechanisms allows the devices to identify the authorised user. This is simply done by entering a username and an associated password which is used to identify the account and ensure that the user is an authorised individual. Authentication can be enhanced through two-way authentications where the user is required to log in using a username and password which auto generates a ‘one-time password’ through a server and is sent to a registered device. This way, there is an added layer of security where you are not only relying on the password but also a third device to which the hacker needs physical access to. Another way to ensure protection from Cyberattacks is by installing Antivirus software to look out for viruses, trojans, and malware. This software will scan the websites that are visited and connections that are made through the device to ensure that all activity is authorized and legitimate. Installing a firewall on a system or server ensures that only required services are running on the device. Disabling unwanted services limits the threats that the device is likely to face. These are only a few techniques designed to protect users from falling victims to Cybercrime.   
+                        </h7>
+                    </p>
+
+                    <h1>
+                        <p style="padding: 10px 200px 0px;">
+                            Cybersecurity in the future 
+                        </p>
+                    </h1>
+
+                    <p style="padding: 0px 200px 15px;">
+                        <h7>
+                            In the future, Cybercrime rates are going to be higher than ever as most homes will own smart devices like voice assistants, voice-activated lights, vacuum cleaners and so on which will be easy access for hackers who are trying to gain access to sensitive details. Although these gadgets do not contain any sensitive information themselves, they link to other devices that do, and these devices will become vulnerable access points for Cyberattacks. In order to prevent such incidents and protect users, these rising threats require skilled Cybersecurity professionals to ensure safety for the users. Strong incorporation of Artificial Intelligence (AI) can also be expected in Cybersecurity in the future as AI can improve the analysis and study of Cybercrime and enhance Cybersecurity techniques that are used to combat Cybercrimes and protect users. 
+                        </h7>
+                    </p>
+
+                    <h1>
+                        <p style="padding: 10px 200px 0px;">
+                            Potential Impact of this development 
+                        </p>
+                    </h1>
+
+                    <p style="padding: 0px 200px 15px;">
+                        <h7>
+                            Although AI systems can help to identify incoming threats, they can also be misused by Cybercriminals to discover vulnerable users and make them victims of their attack. Cybercriminals will gain the ability to control an organization’s electricity network or cut off the water supply after taking over its AI system. Identity fraudsters can use AI to generate deepfakes and pretend to be authorised users in order to gain access to the system. However, deepfakes can be overcome through constant verification systems such as tracking eye movement, advanced facial recognition, keystrokes, and so on to ensure that the user is an authorised personnel.  
+                            <br/><br/>
+                            In order to prevent such incidents from happening, more job opportunities will open up for skilled Cybersecurity professionals. Cybersecurity is employed by organizations to protect their infrastructure from potential digital harms and threats to their networks or systems. According to Industry Statistics, the jobs that will be in high demand in the future are Network Security Engineer, Cyber Security Analysis, Security Architect, Cyber Security Manager, and Chief Informations Security Officer. These jobs all require skilled Cybersecurity professionals who have the ability to protect users from threats and Cyberattacks. Cybersecurity professionals use various techniques to protect users such as running vulnerability scanners to identify potential flaws within the infrastructure. They monitor the systems and observe the data flow to the internet and check for malicious activity within the network. After the weaknesses are identified, Cybersecurity professionals will test to validate the existence of those weaknesses, and repair and strengthen them by installing Firewalls or Antivirus software. 
+                        </h7>
+                    </p>
+
+                    <h1>
+                        <p style="padding: 10px 200px 0px;">
+                            How will this affect you? 
+                        </p>
+                    </h1>
+                    
+                    
+                    <p style="padding: 0px 200px 15px;">
+                        <h7>
+                            Although we cannot put an end to providing our personal data to organisations nor erase the data that we have already provided, it is important that we have control over who has access to it. Cybersecurity will continue to play a tremendous role going forward as we continue to engage with the world through technology. Cybersecurity will bring a certain level of assurance that the information that we provide is safe and secure and is being handled with confidentiality and care to some extent. This means that we will have more control over who can access our informations as well as our devices. We can avoid being targeted by hackers who are trying to gain access to our information for profit. 
+                        </h7>
+                    </p>
+
+                    <br/><br/>
+                    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="60%" color=black SIZE=1>
+
+                    <!-- Q3 -->
+                    <h1>
+                        <p style="padding: 15px 460px;">
+                            Blockchain and Cryptocurrency 
+                        </p>
+                    </h1>
+
+                    <h1>
+                        <p style="padding: 10px 200px 0px;">
+                            What is Cybersecurity? 
+                        </p>
+                    </h1>
+
+                    <p style="padding: 0px 200px 15px;">
+                        <h7>
+                            Information technology is changing the economic processes of the modern age. In this ever-evolving technological era, even our financial structures are digitizing. At the basis of every financial system are transactional records and organization of ledgers. Blockchain technology is paving the way for a new sub-field of economics, as well as revolutionizing the way businesses operate and general ledgers are recorded. Blockchain is a shared record that is irreversible and passed through a “chain” of users. This technology facilitates the transference of information immediately and transparently. Transactions such as payments, orders, deposits, and others are easily tracked.  
+                            <br/><br/>
+                            Digitizing the record-keeping process provides an enormous benefit to financial institutions, as they spend a lot of money and time on organizing their various records. However, the benefit does not have to stop there. The burgeoning field of blockchain technology opens the door to a new form of currency, free from the constraints of a centralized financial authority. Cryptocurrency is essentially a digital form of money. However, it is not standardized globally and is not accepted by all financial institutions. This will undoubtedly change soon. Cryptocurrency is basically a digital money voucher, and so it can be easily regulated by blockchain without much need for human administration. Blockchain’s immutability provides a safe space for the exchange of this new type of currency. 
+                            <br/><br/>
+                            Digitizing the record-keeping process provides an enormous benefit to financial institutions, as they spend a lot of money and time on organizing their various records. However, the benefit does not have to stop there. The burgeoning field of blockchain technology opens the door to a new form of currency, free from the constraints of a centralized financial authority. Cryptocurrency is essentially a digital form of money. However, it is not standardized globally and is not accepted by all financial institutions. This will undoubtedly change soon. Cryptocurrency is basically a digital money voucher, and so it can be easily regulated by blockchain without much need for human administration. Blockchain’s immutability provides a safe space for the exchange of this new type of currency. 
+                            <br/><br/>
+                            Blockchain is a state-of-the-art technology because it digitizes the arduous record-keeping process found in all financial systems. Third parties that are usually held accountable (such as bankers and brokers) could be rendered obsolete in the distant future. This would be possible if the global currency standard transitioned into cryptocurrencies. While that sounds unrealistic, certain government bodies are fully embracing the idea and attempting to implement it. China, for instance, is currently in the process of implementing digital currency. Trials for “Digital Currency Electronic Payment” (DC/EP) are still running in many cities across China. However, the general consensus about this digital yuan is that it is not a typical digital currency. Cryptocurrency began as a rejection of central financial authority, while the DC/EP is controlled by China’s central bank and represents an increase in control and regulation. Regardless of its intention, China’s movement towards digital currency show that what was once considered a science-fiction dream could be a reality in as soon as three years.  
+                            <br/><br/>
+                            The rapid speed and momentum of modern technological progress has made blockchain possible. The power of interconnectivity offered to us by the current state of the internet is the only reason we have access to this technology today. The speediness of blockchain transactions are made possible by a technology called “smart contracts”. It is a set of rules programmed into any given blockchain. Conditions for transactions are defined and automated. The major selling-point of blockchain is its efficient approach to keeping irreversible ledgers. This technology offers automatically executed record-keeping within set standards. There is no need to cross-check records, as that process is also automated, saving participants a lot of time and effort. Without “smart contracts”, blockchain would not have such powerful potential. 
+                        </h7>
+                    </p>
+
+                    <h1>
+                        <p style="padding: 10px 200px 0px;">
+                            What is the likely impact? 
+                        </p>
+                    </h1>
+
+                    <p style="padding: 0px 200px 15px;">
+                        <h7>
+                            Blockchain and cryptocurrencies will revolutionize economies on a micro and macro level. In the long run, all things that can be digitized will be digitized. Cryptocurrencies may very well wipe out all centrally issued currencies. While this may sound impossible, so did many technological concepts before their actual inception. E-mail is still in the process of making snail mail completely obsolete. People may no longer send or receive physical mail within the next few years. Even now, the only physical mail most people receive are either bills or advertisements. Seeing the impact e-mail had on a historically established system like the mailing system gives us hope for a similar effect from blockchain and cryptocurrencies. 
+                            <br/><br/>
+                            On a business level, it will make record-keeping more efficient and direct. Not only will blockchain technology cut the costs of transactions and their subsequent ledgers, but it will also minimize the potential mistakes found regularly in the classic, error-prone methods of yesterday. When the middleman is cut out, the transactional process is speedier. This record-keeping does not apply to only businesses. All sorts of tracing and data collection is made possible by blockchain technology. IBM Food Trust (in conjunction with Raw Seafoods) currently uses blockchain to trace seafood in restaurants and grocers all the way back to the boats on which it was caught. This efficiently enables more accountability in the food supply chain. Other industries, such as healthcare, will benefit from blockchain’s immutable record-keeping capabilities, as well.  
+                            <br/><br/>
+                            Error prevention and dispute resolution will be things of the past once blockchain overtakes our current, multifaceted ledger systems. Paperwork will be replaced with this more streamlined process. Eventually everyone will be affected by this new technology, especially considering how much time and money it saves. Any business, small or large, will be shooting themselves in the foot by sticking to their old record-keeping methods. Entire industries can be reworked around blockchain technology. Things such as photographs, payment records, and permits can be accessed by relevant parties with the click of a mouse. While this is doable now, very little organizational effort is put behind blockchain tech, making it the superior choice overall.
+                        </h7>
+                    </p>
+
+                    <h1>
+                        <p style="padding: 10px 200px 0px;">
+                            How will this affect you? 
+                        </p>
+                    </h1>
+
+                    <p style="padding: 0px 200px 15px;">
+                        <h7>
+                            I did not know much about blockchain or cryptocurrency before writing this report. Learning about the basics of blockchain has piqued my interest in the technology. For now, it will not affect my life much. However, I shall continue my self-edification journey and engage in more research on the topic. Once I feel that I have sufficient familiarity with blockchain technology and its various associated cryptocurrencies, I may attempt to make some investments. That will most likely be the extent of my direct involvement with blockchain.  
+                            <br/><br/>
+                            As far as indirect involvement is concerned, I can see my life being affected dramatically. No longer will I be concerned about the source of my food, or potential food safety issues. Blockchain technology is being implemented on a wide scale regarding food safety and pathogen tracing. Eventually, I will be able to eat in a restaurant comfortably because all foods there will be verifiably safe to consume, and pre-traced before entering that restaurant’s kitchen. Any business I frequent may begin to use blockchain technology in the future. If they do, they will be able to serve their customers more effectively, and so I am positively affected, as well. They will have more time and money to spend on the customers’ experience, as they will not have to waste labour or other resources on meticulous book-keeping. 
+                            <br/><br/>
+                            My family and friends back home in the United States could be very positively affected by blockchain technology. The US has been enduring unfortunately high COVID case numbers throughout this pandemic. If blockchain was to be implemented in contact-tracing, perhaps the case numbers could be lessened, and the danger of exposure could be mitigated. Most of my family has thankfully recovered from COVID, but perhaps they never would have been exposed to the virus at all if contact-tracing had been a more streamlined process with the help of blockchain tech. As far as cryptocurrency is concerned, my friends and family may also choose to make investments, and potentially profit. 
+                        </h7>
+                    </p>
+
+                    <br/><br/>
+                    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="60%" color=black SIZE=1>
+
+                    <!-- Q5 -->
+                    <h1>
+                        <p style="padding: 15px 460px;">
+                            Autonomous Vehicles
+                        </p>
+                    </h1>
+
+                    <h1>
+                        <p style="padding: 10px 200px 0px;">
+                            What does it do? 
+                        </p>
+                    </h1>
+
+                    <p style="padding: 0px 200px 15px;">
+                        <h7>
+                            Fully autonomous vehicles are still a whiles way from being a common eyesight on our roads and to understand the state of this technology, you have to understand the different levels of autonomy. The SAE (Society of Automotive Engineers) defines there to be 6 levels of driving automation. This ranges from Level 0, described as ‘No Driving Automation’, a level where the vehicle is completely controlled by a human although there may be different systems that help the driver, for example, the emergency braking system. This in contrast to Level 5 vehicles which do not require human attention and can do anything that an experienced human driver can do.  As Level 5 is the end all be all, this is what and where autonomous technology are striving to become. As of the present day, you will find that most new cars are Level 2 autonomy which can be best described as Partial Driving Automation. At this level, the car can take control of the acceleration, braking and steering; this is best seen in features such as auto-parking. These features are found in vehicles from brands such as Audi, BMW, Mercedes, Toyota etc. 
+                            <br/><br/>
+                            As of today, there is not a production car in the world that can be classified as Level 3 autonomous although Tesla’s new FSD beta is seemingly closing the gap. With real-time adaptability and ability to navigate through traffic, it is hard whether or not Tesla’s eligible EV’s already meet the threshold. Whether or not you agree that Tesla has already succeeded with creating a true autonomous vehicle, it seems to be that the public’s opinion is that they will be the first ones. This thinking is demonstrative in the price of their shares as we have seen it rocket in the last few years. Although being known for having poor build quality and locking features such as speed increases behind software paywalls, it has not stopped shares from being worth $65(USD) in Jan 2019th climbing to a staggering $880(USD) in Jan 2021. That is not to say that other influences such as marketing has not influenced the price, but it is hard to argue that their position on the automotive race has not boosted their valuation. With Tesla fronting the lead of autonomous vehicles, all negative connotations associated with autonomy is splashed back onto them. The ethics and morals behind machine driven cars has always been questioned; should the car save the driver or the pedestrian? There’s also other questions such as ‘Who’s to blame if a car driving itself kills someone? Is it the driver who wasn’t driving or the company that made it?’. There are not right and wrong answers when it comes to tackling such a hefty question like this but that does not mean we can leave the answer blank. This recently prominent as of the 20th of April 2021, a fatal incident in Texas occurred where a Tesla that investigators state were “100% sure” had no one driving it ran off the road, hitting a tree, bursting in flames, and resulted in the death of the two men inside. Although there was the “likelihood that someone was in the driver’s seat at the time of the crash”, its hard to say who is at fault.  
+                            <br/><br/>
+                            To further the technology to prevent accidents like this, more extensive training of the autopilot neural network for better depth perception, object detection and semantic segmentation will need to take place. More small and micro-architectural improvements are needed on new silicon chips to maximise performance-per-watt in order to power the full-self-driving systems. 
+                        </h7>
+                    </p>
+
+                    <h1>
+                        <p style="padding: 10px 200px 0px;">
+                            What is the likely impact? 
+                        </p>
+                    </h1>
+
+                    <p style="padding: 0px 200px 15px;">
+                        <h7>
+                            This technology, if fully functional and capable of performing tasks associated with that of Level 5 autonomy would greatly impact and change society. If majority of cars on road were to be fully autonomous, the advent of a ‘vehicular cloud’ would circumvent traffic jams and serve as a tool for efficient traffic management. With intelligent computing systems on board and increased sensing power, vehicles would be able to relay information between one another creating a network that precisely pinpoints where each and every car will be. This allows for route planning whereas a collective the cars form of a cloud network sending each car down a path which it minimalizes traffic. 
+                            <br/><br/>
+                            Road safety is likely to change as this new technology remarkably increases road safety as past issues such as blind spots are now irrelevant. Not only would it have great positive effects on traffic flow through suburban and metropolitan areas, but it would also dynamically shift the in-car experience.  
+                            <br/><br/>
+                            Regardless of what cars look like now, there would need to be a reimagined look of human interaction between humans and machines. Without the need of items such as a steering wheel and pedals, it poses the need for other objects such as windows. For instance, it would be plausible that vehicles with no windows would act as a sort of transportable cinema where customers could relax, sit, and drink whilst the vehicles drive them to their required destination. The possibilities are almost endless as cars would no longer be ‘cars’ perse but be a room on wheels. This cultivates into a reduction of certain industries, notably the taxi industry which would inexistant, forcing a new wave of loss employment but also new employment. It would also be these very people that would be most affected. 
+                        </h7>
+                    </p>
+
+                    <h1>
+                        <p style="padding: 10px 200px 0px;">
+                            How will this affect you? 
+                        </p>
+                    </h1>
+
+                    <p style="padding: 0px 200px 15px;">
+                        <h7>
+                            In day-to-day life, autonomous vehicles are set to change everything. It is a systematic rewriting of the way people transport and how they will conduct their day. For myself, regardless of if I own an autonomous vehicle or not, having these self-driving vehicles be at my disposable on apps such as Uber will differ to how these same apps deliver presently. If traffic optimisation becomes as a result of autonomous vehicles as theorised due to cloud vehicle systems, it could ultimately cut travel time for places that I travel to. 
+                            <br/><br/>
+                            The main difference for myself and many others will be to having to learn to trust machines to calculate complex decisions that can impact the safety of our lives. Not only this but not having control over the vehicle in any compacity (as depicted in Autonomous Level 5) as pedals, steering wheels, indicators would no longer be existent.  
+                            <br/><br/>
+                            This type of technology will affect all family or friends depending on how far into the future we are looking. If we were to look 3 years into the future for example, this technology would have a fairly drastically low impact unless there were to be huge breakthroughs such as traversing another autonomous level. If we were looking much further such as 50 years for example, it’s quite obvious that it would change everything that has to do with transport. 
+                        </h7>
+                    </p>
+                </div>
+            </ITTechnologies>
+
+            <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="100%" color=gray SIZE=5>
+
+            <!-- Project Ideas -->
+            <projectIdeas>
+                <div id='PROJECTIDEAS'>
+                    <!-- Title: Project Ideas -->
+                    <tit2>
+                        <h3>
+                            <p style="padding: 15px 480px;">
+                                Project Ideas
+                            </p>
+                        </h3>
+                    </tit2>
+
+                    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="80%" color=black SIZE=1>
+                    
+                </div>
+            </projectIdeas>
+
+            <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="100%" color=gray SIZE=5>
+
+            <!-- Group Reflection -->
+            <groupReflection>
+                <div id='GROUPREFLECTION'>
+                    <!-- Title: Group Reflection -->
+                    <tit2>
+                        <h3>
+                            <p style="padding: 15px 480px;">
+                                Group Reflection
+                            </p>
+                        </h3>
+                    </tit2>
+
+                    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="80%" color=black SIZE=1>
+                    
+                </div>
+            </groupReflection>
         </right>
 
         <bottom>
